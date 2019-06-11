@@ -20,7 +20,7 @@ class Downloader
     protected $capturePeerChain = false;
 
     /** @var bool */
-    protected $verifyPeer = true;
+    protected $verifyPeer = false;
 
     /** @var bool */
     protected $verifyPeerName = true;
